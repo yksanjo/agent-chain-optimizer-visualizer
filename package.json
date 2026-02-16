@@ -1,0 +1,24 @@
+{
+  "name": "agent-chain-optimizer-visualizer",
+  "version": "1.0.0",
+  "description": "Graph Visualizer for Agent Chain Optimizer workflows",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn src/server.ts"
+  },
+  "dependencies": {
+    "agent-chain-optimizer": "^1.0.0",
+    "d3": "^7.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
